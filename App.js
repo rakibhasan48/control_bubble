@@ -21,9 +21,9 @@ const App: () => React$Node = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'relative',
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
+    padding: 100,
   },
 });
 
